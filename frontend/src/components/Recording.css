@@ -1,0 +1,30 @@
+.recording {
+    display: flex;
+    gap: 5px;
+    width: max-content;
+    align-items: center;
+    opacity: 1;
+    transition: opacity 0.4s;
+}
+
+.recording--hidden {
+    opacity: 0;
+}
+
+.recording__icon {
+    width: 20px;
+    height: 20px;
+    background-color: #FF2800;
+    border-radius: 50%;
+    animation: blinking 1.5s infinite alternate;
+}  
+
+@keyframes blinking {
+    from {
+        background-color: #FF2800;
+    }
+    to {
+        background-color: white;
+    }
+    
+}

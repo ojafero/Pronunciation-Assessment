@@ -1,0 +1,10 @@
+.passage {
+    flex: 1;
+    min-width: 250px;
+    max-width: 500px;
+}
+
+.passage__input {
+    height: 180px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px !important;
+}

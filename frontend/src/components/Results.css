@@ -1,0 +1,24 @@
+.results {
+    text-align: left;
+    margin-top: 60px;
+}
+
+.progress__container {
+    text-align: center;
+}
+
+.progress__circle span {
+    font-size: 0.8em !important;
+}
+
+.results__legend {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.words__word {
+    margin-right: 10px;
+}
+

@@ -1,0 +1,10 @@
+.recorder {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.recorder__button-group {
+    display: flex;
+    gap: 10px;
+}
